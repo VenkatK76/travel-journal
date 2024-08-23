@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  background-color: #F55A5A;
+  gap: 5px;
+  color: #fff;
+}
+
+.title {
+  font-size: 18px;
+  margin: 15px;
+}

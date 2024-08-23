@@ -1,0 +1,61 @@
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.card {
+  padding: 1.5rem 3.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1.5rem;
+  max-width: 700px;
+}
+
+.card-image img {
+  border-radius: 5px;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  font-size: 0.65rem;
+}
+
+.header-location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-location h2{
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.header-maps {
+  color: #918E9B;
+  text-decoration: underline;
+  text-decoration-thickness: 0.85px;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.card-title {
+  margin-top: -1.75rem;
+  font-size: 18px;
+}
+
+.card-daterange h5 {
+  font-size: 15px;
+}
+
+.card-description p{
+  font-size: 15px;
+}
+
